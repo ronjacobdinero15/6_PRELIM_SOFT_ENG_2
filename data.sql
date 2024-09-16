@@ -56,7 +56,27 @@ VALUES
 (7, 7, 7, '2023-09-07 15:30:00', 'Completed', 'Family Therapy', 'Parent-child relationship issues', 75),
 (8, 8, 8, '2023-09-08 16:00:00', 'Completed', 'Cognitive Therapy', 'Cognitive behavioral therapy for anxiety', 60),
 (9, 9, 9, '2023-09-09 17:30:00', 'Scheduled', 'Art Therapy', 'Creative expression for trauma', 120),
-(10, 10, 10, '2023-09-10 18:30:00', 'Completed', 'Family Therapy', 'Blended family dynamics', 60);
+(10, 10, 10, '2023-09-10 18:30:00', 'Completed', 'Family Therapy', 'Blended family dynamics', 60),
+(11, 1, 1, '2023-09-11 09:30:00', 'Completed', 'Follow-up', 'Stress management', 60),
+(12, 2, 2, '2023-09-12 10:30:00', 'Completed', 'Initial Consultation', 'Workplace stress', 45),
+(13, 3, 3, '2023-09-13 11:00:00', 'Completed', 'Family Therapy', 'Communication skills', 90),
+(14, 4, 4, '2023-09-14 12:00:00', 'Completed', 'Psychiatric Evaluation', 'Depression symptoms', 60),
+(15, 5, 5, '2023-09-15 13:30:00', 'Completed', 'Follow-up', 'Housing support', 60),
+(16, 1, 1, '2023-09-16 09:30:00', 'Completed', 'Follow-up', 'Anxiety management', 60),
+(17, 2, 2, '2023-09-17 10:30:00', 'Completed', 'Family Counseling', 'Family issues', 75),
+(18, 3, 3, '2023-09-18 11:00:00', 'Completed', 'Individual Therapy', 'Behavioral issues', 60),
+(19, 4, 4, '2023-09-19 12:00:00', 'Completed', 'Psychiatric Follow-up', 'Medication review', 60),
+(20, 5, 5, '2023-09-20 13:30:00', 'Completed', 'Case Management', 'Support and advice', 45),
+(21, 6, 6, '2023-09-21 14:30:00', 'Completed', 'Marriage Counseling', 'Conflict resolution', 90),
+(22, 7, 7, '2023-09-22 15:30:00', 'Completed', 'Family Therapy', 'Parental guidance', 75),
+(23, 8, 8, '2023-09-23 16:00:00', 'Completed', 'Cognitive Behavioral Therapy', 'Cognitive restructuring', 60),
+(24, 9, 9, '2023-09-24 17:30:00', 'Completed', 'Art Therapy', 'Emotional expression', 120),
+(25, 10, 10, '2023-09-25 18:30:00', 'Completed', 'Family Therapy', 'Adjustment issues', 60),
+(26, 1, 1, '2023-09-26 09:30:00', 'Completed', 'Follow-up', 'Stress reduction', 60),
+(27, 2, 2, '2023-09-27 10:30:00', 'Completed', 'Initial Consultation', 'Stress management', 45),
+(28, 3, 3, '2023-09-28 11:00:00', 'Completed', 'Family Therapy', 'Communication issues', 90),
+(29, 4, 4, '2023-09-29 12:00:00', 'Completed', 'Psychiatric Evaluation', 'Mood disorders', 60),
+(30, 5, 5, '2023-09-30 13:30:00', 'Completed', 'Follow-up', 'Housing support', 60);
 
 INSERT INTO Session_notes (note_id, session_id, note_text, timestamp, author)
 VALUES
@@ -77,7 +97,27 @@ VALUES
 (7, 7, 100.00, 'Cash', '2023-09-07', 'Paid'),
 (8, 8, 70.00, 'Credit Card', '2023-09-08', 'Paid'),
 (9, 9, 120.00, 'Debit Card', '2023-09-09', 'Pending'),
-(10, 10, 85.00, 'Cash', '2023-09-10', 'Paid');
+(10, 10, 85.00, 'Cash', '2023-09-10', 'Paid'),
+(11, 11, 100.00, 'Credit Card', '2023-09-11', 'Paid'),
+(12, 12, 75.00, 'Debit Card', '2023-09-12', 'Paid'),
+(13, 13, 90.00, 'Cash', '2023-09-13', 'Paid'),
+(14, 14, 80.00, 'Credit Card', '2023-09-14', 'Paid'),
+(15, 15, 85.00, 'Credit Card', '2023-09-15', 'Paid'),
+(16, 16, 100.00, 'Credit Card', '2023-09-16', 'Paid'),
+(17, 17, 75.00, 'Debit Card', '2023-09-17', 'Paid'),
+(18, 18, 90.00, 'Cash', '2023-09-18', 'Paid'),
+(19, 19, 80.00, 'Credit Card', '2023-09-19', 'Paid'),
+(20, 20, 85.00, 'Credit Card', '2023-09-20', 'Paid'),
+(21, 21, 95.00, 'Debit Card', '2023-09-21', 'Paid'),
+(22, 22, 100.00, 'Cash', '2023-09-22', 'Paid'),
+(23, 23, 70.00, 'Credit Card', '2023-09-23', 'Paid'),
+(24, 24, 120.00, 'Debit Card', '2023-09-24', 'Paid'),
+(25, 25, 85.00, 'Cash', '2023-09-25', 'Paid'),
+(26, 26, 100.00, 'Credit Card', '2023-09-26', 'Paid'),
+(27, 27, 75.00, 'Debit Card', '2023-09-27', 'Paid'),
+(28, 28, 90.00, 'Cash', '2023-09-28', 'Paid'),
+(29, 29, 80.00, 'Credit Card', '2023-09-29', 'Paid'),
+(30, 30, 85.00, 'Credit Card', '2023-09-30', 'Paid');
 
 INSERT INTO Feedback (feedback_id, client_id, therapist_id, session_id, feedback_date, rating, comments)
 VALUES
@@ -90,7 +130,27 @@ VALUES
 (7, 7, 7, 7, '2023-09-07', 5, 'Very effective family therapy. Improved communication with my child.'),
 (8, 8, 8, 8, '2023-09-08', 4, 'Cognitive therapy was useful, but more examples would have helped.'),
 (9, 9, 9, 9, '2023-09-09', 5, 'Art therapy was fantastic for creative expression and trauma.'),
-(10, 10, 10, 10, '2023-09-10', 4, 'Family dynamics improved, but some issues remain.');
+(10, 10, 10, 10, '2023-09-10', 4, 'Family dynamics improved, but some issues remain.'),
+(11, 1, 1, 11, '2023-09-11', 5, 'Very helpful follow-up session.'),
+(12, 2, 2, 12, '2023-09-12', 4, 'Initial consultation was thorough.'),
+(13, 3, 3, 13, '2023-09-13', 5, 'Family therapy made a significant impact.'),
+(14, 4, 4, 14, '2023-09-14', 4, 'Good evaluation, though wait was long.'),
+(15, 5, 5, 15, '2023-09-15', 5, 'Support provided was excellent.'),
+(16, 1, 1, 16, '2023-09-16', 5, 'Very effective follow-up session.'),
+(17, 2, 2, 17, '2023-09-17', 4, 'Good counseling session for family issues.'),
+(18, 3, 3, 18, '2023-09-18', 4, 'Therapy was helpful for behavioral issues.'),
+(19, 4, 4, 19, '2023-09-19', 5, 'Excellent evaluation and medication review.'),
+(20, 5, 5, 20, '2023-09-20', 4, 'Support was helpful, but follow-up needed.'),
+(21, 6, 6, 21, '2023-09-21', 5, 'Marriage counseling was very insightful.'),
+(22, 7, 7, 22, '2023-09-22', 4, 'Family therapy improved communication.'),
+(23, 8, 8, 23, '2023-09-23', 4, 'CBT was effective but could use more examples.'),
+(24, 9, 9, 24, '2023-09-24', 5, 'Fantastic art therapy session.'),
+(25, 10, 10, 25, '2023-09-25', 4, 'Family dynamics improved.'),
+(26, 1, 1, 26, '2023-09-26', 5, 'Excellent follow-up.'),
+(27, 2, 2, 27, '2023-09-27', 4, 'Good initial consultation.'),
+(28, 3, 3, 28, '2023-09-28', 5, 'Effective family therapy.'),
+(29, 4, 4, 29, '2023-09-29', 4, 'Good psychiatric evaluation.'),
+(30, 5, 5, 30, '2023-09-30', 5, 'Great follow-up session.');
 
 INSERT INTO Goals (goal_id, client_id, goal_type, target_date, status, progress)
 VALUES
